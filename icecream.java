@@ -6,12 +6,13 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	    Scanner sc=new Scanner(System.in);
-	    int x=sc.nextInt();
-	    int y=sc.nextInt();
-	    int result=Math.min(x,y);
-	    System.out.println(result);
-	
+		Scanner sc=new Scanner(System.in);
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		if(y>=2*x)
+		System.out.println("yes");
+		else
+		System.out.println("no");
 
 	}
 }
